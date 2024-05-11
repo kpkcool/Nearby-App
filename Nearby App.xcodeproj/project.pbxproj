@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		3677EBA92BEF4EC600A6D646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBA82BEF4EC600A6D646 /* AppDelegate.swift */; };
 		3677EBAB2BEF4EC600A6D646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBAA2BEF4EC600A6D646 /* SceneDelegate.swift */; };
-		3677EBAD2BEF4EC600A6D646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBAC2BEF4EC600A6D646 /* ViewController.swift */; };
+		3677EBAD2BEF4EC600A6D646 /* VenueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBAC2BEF4EC600A6D646 /* VenueListViewController.swift */; };
 		3677EBB02BEF4EC600A6D646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3677EBAF2BEF4EC600A6D646 /* Base */; };
 		3677EBB32BEF4EC600A6D646 /* Nearby_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBB12BEF4EC600A6D646 /* Nearby_App.xcdatamodeld */; };
 		3677EBB52BEF4EC900A6D646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3677EBB42BEF4EC900A6D646 /* Assets.xcassets */; };
 		3677EBB82BEF4EC900A6D646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3677EBB72BEF4EC900A6D646 /* Base */; };
+		3677EBC02BEF505600A6D646 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBBF2BEF505600A6D646 /* VenueModel.swift */; };
+		3677EBC52BEF53FF00A6D646 /* VenueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3677EBC42BEF53FF00A6D646 /* VenueTableViewCell.xib */; };
+		3677EBC62BEF53FF00A6D646 /* VenueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBC32BEF53FF00A6D646 /* VenueTableViewCell.swift */; };
+		3677EBC82BEF570900A6D646 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBC72BEF570900A6D646 /* APIManager.swift */; };
+		3677EBCC2BEF5DEE00A6D646 /* VenueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBCB2BEF5DEE00A6D646 /* VenueViewModel.swift */; };
+		3677EBCF2BEF608900A6D646 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677EBCE2BEF608900A6D646 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3677EBA52BEF4EC600A6D646 /* Nearby App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nearby App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3677EBA82BEF4EC600A6D646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3677EBAA2BEF4EC600A6D646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3677EBAC2BEF4EC600A6D646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3677EBAC2BEF4EC600A6D646 /* VenueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewController.swift; sourceTree = "<group>"; };
 		3677EBAF2BEF4EC600A6D646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3677EBB22BEF4EC600A6D646 /* Nearby_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nearby_App.xcdatamodel; sourceTree = "<group>"; };
 		3677EBB42BEF4EC900A6D646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3677EBB72BEF4EC900A6D646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3677EBB92BEF4EC900A6D646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3677EBBF2BEF505600A6D646 /* VenueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
+		3677EBC32BEF53FF00A6D646 /* VenueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTableViewCell.swift; sourceTree = "<group>"; };
+		3677EBC42BEF53FF00A6D646 /* VenueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueTableViewCell.xib; sourceTree = "<group>"; };
+		3677EBC72BEF570900A6D646 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3677EBCB2BEF5DEE00A6D646 /* VenueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueViewModel.swift; sourceTree = "<group>"; };
+		3677EBCE2BEF608900A6D646 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,10 @@
 			children = (
 				3677EBA82BEF4EC600A6D646 /* AppDelegate.swift */,
 				3677EBAA2BEF4EC600A6D646 /* SceneDelegate.swift */,
-				3677EBAC2BEF4EC600A6D646 /* ViewController.swift */,
+				3677EBC92BEF5DBE00A6D646 /* Utility */,
+				3677EBC12BEF50FD00A6D646 /* Model */,
+				3677EBCA2BEF5DD700A6D646 /* ViewModel */,
+				3677EBC22BEF533600A6D646 /* View */,
 				3677EBAE2BEF4EC600A6D646 /* Main.storyboard */,
 				3677EBB42BEF4EC900A6D646 /* Assets.xcassets */,
 				3677EBB62BEF4EC900A6D646 /* LaunchScreen.storyboard */,
@@ -68,6 +83,41 @@
 				3677EBB12BEF4EC600A6D646 /* Nearby_App.xcdatamodeld */,
 			);
 			path = "Nearby App";
+			sourceTree = "<group>";
+		};
+		3677EBC12BEF50FD00A6D646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3677EBBF2BEF505600A6D646 /* VenueModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3677EBC22BEF533600A6D646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3677EBAC2BEF4EC600A6D646 /* VenueListViewController.swift */,
+				3677EBC32BEF53FF00A6D646 /* VenueTableViewCell.swift */,
+				3677EBC42BEF53FF00A6D646 /* VenueTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3677EBC92BEF5DBE00A6D646 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3677EBC72BEF570900A6D646 /* APIManager.swift */,
+				3677EBCE2BEF608900A6D646 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3677EBCA2BEF5DD700A6D646 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3677EBCB2BEF5DEE00A6D646 /* VenueViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3677EBB52BEF4EC900A6D646 /* Assets.xcassets in Resources */,
+				3677EBC52BEF53FF00A6D646 /* VenueTableViewCell.xib in Resources */,
 				3677EBB82BEF4EC900A6D646 /* Base in Resources */,
 				3677EBB02BEF4EC600A6D646 /* Base in Resources */,
 			);
@@ -142,9 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3677EBB32BEF4EC600A6D646 /* Nearby_App.xcdatamodeld in Sources */,
-				3677EBAD2BEF4EC600A6D646 /* ViewController.swift in Sources */,
+				3677EBAD2BEF4EC600A6D646 /* VenueListViewController.swift in Sources */,
+				3677EBC02BEF505600A6D646 /* VenueModel.swift in Sources */,
+				3677EBC62BEF53FF00A6D646 /* VenueTableViewCell.swift in Sources */,
 				3677EBA92BEF4EC600A6D646 /* AppDelegate.swift in Sources */,
 				3677EBAB2BEF4EC600A6D646 /* SceneDelegate.swift in Sources */,
+				3677EBCC2BEF5DEE00A6D646 /* VenueViewModel.swift in Sources */,
+				3677EBC82BEF570900A6D646 /* APIManager.swift in Sources */,
+				3677EBCF2BEF608900A6D646 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +359,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +387,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
